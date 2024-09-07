@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, Alert } from 'react-native'
+import { View, Text, Alert } from 'react-native'
 import { PagesStyles } from '../styles/PagesStyles'
 import { useState } from 'react'
 import { InputComponent } from '../components/InputComponent'
