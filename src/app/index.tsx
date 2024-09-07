@@ -3,6 +3,7 @@ import { PagesStyles } from '../styles/PagesStyles'
 import { useState } from 'react'
 import { InputComponent } from '../components/InputComponent'
 import { BtnComponent } from '../components/BtnComponents'
+import { router } from 'expo-router'
 
 export default function App() {
 
@@ -31,7 +32,7 @@ export default function App() {
             <View style={PagesStyles.container}>
                 <BtnComponent titulo='Login' onPress={() => { }} />
 
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => router.push('./NovoUsuario')}>
                     <Text style={{ fontSize: 16, fontWeight: 'bold' }}>
                         Não tem conta? Cadastre-se
                     </Text>

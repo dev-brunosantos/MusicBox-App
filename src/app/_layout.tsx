@@ -1,15 +1,19 @@
 import { Stack } from "expo-router";
+import { LoginProvider } from "../contexts/LoginContext";
 
 export default function StackLayout() {
     return (
-        <Stack
-            screenOptions={{
-                statusBarColor: "#1d1d2d",
-                statusBarStyle: "light",
-                headerShown: false
-            }}
-        >
-            <Stack.Screen name="index" />
-        </Stack>
+        <LoginProvider>
+            <Stack
+                screenOptions={{
+                    statusBarColor: "#1d1d2d",
+                    statusBarStyle: "light",
+                    headerShown: false
+                }}
+            >
+                <Stack.Screen name="index" />
+                <Stack.Screen name="NovoUsuario" />
+            </Stack>
+        </LoginProvider>
     )
 }
