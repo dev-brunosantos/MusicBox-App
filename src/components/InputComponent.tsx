@@ -12,7 +12,7 @@ export const InputComponent = ({
     placeholder, onChangeText, isPassword
 }: InputProps) => {
 
-    const [seguranca, setSeguranca] = useState(false)
+    const [seguranca, setSeguranca] = useState(true)
     const [btnIcone, setBtnIcone] = useState('eye-with-line')
 
     function verSenha() {
@@ -47,7 +47,8 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 54,
         borderWidth: 1,
-        borderRadius: 10
+        borderRadius: 10,
+        marginVertical: 10
     },
     input: {
         width: '100%',
