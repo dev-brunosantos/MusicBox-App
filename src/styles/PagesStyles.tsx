@@ -13,7 +13,7 @@ export const PagesStyles = StyleSheet.create({
         marginVertical: 10,
         alignItems: 'center',
         justifyContent: 'center',
-        borderWidth: 1
+        // borderWidth: 1
     },
     titulos: {
         fontSize: 60,
