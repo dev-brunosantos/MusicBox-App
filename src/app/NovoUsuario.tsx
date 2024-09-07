@@ -26,7 +26,7 @@ export default function NovoUsuario() {
     return (
         <View style={PagesStyles.page}>
             <View style={PagesStyles.container}>
-                <Text style={PagesStyles.titulos}>MusicBox</Text>
+                <Text style={[PagesStyles.titulos, { fontSize: 40}]}>Novo usuário</Text>
             </View>
 
             <View style={PagesStyles.container}>
