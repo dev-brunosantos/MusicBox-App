@@ -1,0 +1,22 @@
+[
+    {
+        "id_turma": "T01",
+        "turma": "Teclado",
+        "Qtd_alunos": 2
+    },
+    {
+        "id_turma": "V02",
+        "turma": "Violão",
+        "Qtd_alunos": 0
+    },
+    {
+        "id_turma": "G03",
+        "turma": "Guitarra",
+        "Qtd_alunos": 1
+    },
+    {
+        "id_turma": "S04",
+        "turma": "Sax",
+        "Qtd_alunos": 2
+    }
+]

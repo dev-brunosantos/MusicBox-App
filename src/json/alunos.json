@@ -1,0 +1,22 @@
+[
+    {
+        "id": "0001",
+        "nome": "Rodolfo",
+        "id_turma": "T01"
+    },
+    {
+        "id": "0002",
+        "nome": "Cássio",
+        "id_turma": "S04"
+    },
+    {
+        "id": "0003",
+        "nome": "Jhonatan",
+        "id_turma": "S04"
+    },
+    {
+        "id": "0004",
+        "nome": "Issac",
+        "id_turma": "G03"
+    }
+]
