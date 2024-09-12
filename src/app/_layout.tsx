@@ -13,6 +13,7 @@ export default function StackLayout() {
             >
                 <Stack.Screen name="index" />
                 <Stack.Screen name="NovoUsuario" />
+                <Stack.Screen name="(drawer)" />
             </Stack>
         </LoginProvider>
     )

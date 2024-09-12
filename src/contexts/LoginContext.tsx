@@ -11,6 +11,7 @@ interface LoginProps {
     usuario: UsuarioProps;
     validarUsuario: ({ email, senha }:UsuarioProps) => void;
     msgErro: boolean;
+    signOut: () => void;
 }
 
 const LoginContext = createContext({} as LoginProps)
@@ -30,8 +31,12 @@ function LoginProvider({ children }: { children: ReactNode }) {
         return router.push('./(drawer)')
     }
 
+    function signOut() {
+        return router.push('./src/app/index')
+    }
+
     return (
-        <LoginContext.Provider value={{ usuario, validarUsuario, msgErro}}>
+        <LoginContext.Provider value={{ usuario, validarUsuario, msgErro, signOut}}>
             {children}
         </LoginContext.Provider>
     )
